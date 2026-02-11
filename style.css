@@ -75,9 +75,6 @@
 }
 
 .footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
     background-color: #1100ff;
     color: white;
     padding: 30px 20px;
@@ -89,6 +86,9 @@
     margin: 8px 0;
     font-size: 14px;
     line-height: 1.5;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 strong {
@@ -115,3 +115,4 @@ strong {
     box-shadow: 0 0 15px rgba(0, 195, 255, 0.6);
 
 }
+
