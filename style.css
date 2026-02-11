@@ -75,6 +75,9 @@
 }
 
 .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     background-color: #1100ff;
     color: white;
     padding: 30px 20px;
@@ -110,4 +113,5 @@ strong {
     transition: 0.3s ease;
 
     box-shadow: 0 0 15px rgba(0, 195, 255, 0.6);
+
 }
