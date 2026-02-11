@@ -85,6 +85,9 @@
 }
 
 .footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
     background-color: #1100ff;
     color: white;
     padding: 30px 20px;
@@ -96,34 +99,10 @@
     margin: 8px 0;
     font-size: 14px;
     line-height: 1.5;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 }
 
 strong {
     color: #1100ff;
-}
-
-.button {
-    margin-top: 20px;
-    padding: 15px 35px;
-
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 1px;
-
-    color: white;
-    background: linear-gradient(90deg, #2600ff, #00028d);
-    
-    border: none;
-    border-radius: 40px;
-
-    cursor: pointer;
-    transition: 0.3s ease;
-
-    box-shadow: 0 0 15px rgba(0, 195, 255, 0.6);
-
 }
 
 .btn-github {
@@ -177,6 +156,7 @@ strong {
 .btn-github:hover::before {
  transform: translate3d(100%, 0, 0);
 }
+
 
 
 
